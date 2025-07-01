@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.5
 // @description  نافذة واحدة مع ألوان للإشارات وجداول الأبراج القريبة متجددة باستمرار
-// @author       fahad 0day
+// @author       fahad  twitter: kkoao1
 // @match        *://192.168.8.1/*
 // @grant        none
 // ==/UserScript==
