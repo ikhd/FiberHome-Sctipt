@@ -74,32 +74,6 @@ document.body.appendChild(button);
       </div>
     </div>
   `;
-const responsiveStyle = document.createElement("style");
-responsiveStyle.innerHTML = `
-@media (max-width: 768px) {
-  #popupHeader {
-    flex-wrap: wrap;
-  }
-  .tabBtn {
-    flex: 1 1 45%;
-    margin-top: 6px;
-  }
-}
-@media (max-width: 768px) {
-  div[style*="min-width:700px"] {
-    width: 95% !important;
-    min-width: unset !important;
-    max-width: 420px !important;
-  }
-  #signalContent {
-    padding: 15px !important;
-  }
-  input, button {
-    font-size: 15px !important;
-  }
-}
-`;
-document.head.appendChild(responsiveStyle);
   document.body.appendChild(popup);
 
   /*────────── Hover للأزرار في الـ popup ──────────*/
